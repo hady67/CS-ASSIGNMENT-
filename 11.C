@@ -14,7 +14,7 @@ long long convert(int octal) {
 int deci = 0, i = 0;
 long long binary = 0;
 
-// converting octal to decimal
+
 while (octal != 0) {
 deci += (octal % 10) * pow(8, i);
 ++i;
@@ -22,7 +22,6 @@ octal /= 10;
 }
 i = 1;
 
-// converting decimal to binary
 while (deci != 0) {
 bin += (deci % 2) * i;
 deci /= 2;

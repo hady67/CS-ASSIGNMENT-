@@ -9,17 +9,14 @@ int n, num = 0;
 printf("Enter any number to print in words: ");
 scanf("%d", &n);
 
-/* Store reverse of n in num */
+
 while(n != 0)
 {
 num = (num * 10) + (n % 10);
 n /= 10;
 }
 
-/*
-* Extract last digit of number and print corresponding digit in words
-* till num becomes 0
-*/
+
 while(num != 0)
 {
 switch(num % 10)

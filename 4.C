@@ -5,7 +5,7 @@ int main()
 {
 int n, num = 0;
 
-/* Input number from user */
+
 printf("Enter any number to print in words: ");
 scanf("%d", &n);
 

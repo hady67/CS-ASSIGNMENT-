@@ -15,7 +15,7 @@ long long binary = 0;
 int rem, i = 1, step = 1;
 while (decimal != 0) {
 rem = n % 2;
-printf("Step %d: %d/2, Remainder = %d, Quotient = %d\decimal", step++, decimal, rem, decimal / 2);
+printf("Step %d: %d/2, Remainder = %d, Quotient = %d \decimal", step++, decimal, rem, decimal / 2);
 n /= 2;
 binary += rem * i;
 i *= 10;
